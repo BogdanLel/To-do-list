@@ -1,0 +1,36 @@
+body {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.bi-trash2 {
+    font-size: 25px;
+    color: white;
+}
+
+.bi-pen {
+    font-size: 25px;
+    color: white;
+}
+
+.bi-pen:hover {
+    color: black;
+}
+
+.bi-trash2:hover {
+    color: black;
+}
+
+#control:hover ~ #target {
+    color: black;
+}
+
+.crossText {
+    text-decoration: line-through;
+}
+
+.btn-style {
+    padding: 13px 40px;
+    color: rgb(96, 96, 96);
+    border-radius: 10px;
+}
